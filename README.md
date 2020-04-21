@@ -12,6 +12,9 @@ For my final project, I wanted to create a virtual art gallery where each 'exhib
 ## Outline
 ### General:
 Each 'exhibit' will be a different art style that will take the form of different web pages. Each web page will have a custom static background and a main object/subject that will serve to represent the art style from my perspective.
+#### Prototype
+For my prototype, I decided to use Dadaism as my basic outline for the project. The page currently is very basic as I wanted to show a general idea of what path I was going for. For example, the background is static as I plan to use for the other three pages. The main object will be in the front as the flame animation and text represent.
+ 
 
 ### Dadaism and Prototype Information
 For Dadaism or Dada, which stemmed from the response to WW1, my web page will be in response to the current global issue, the COVID-19 Pandemic. For the background, I plan to create a sort of collage, which was a common medium for Dada artists to use, of news articles which relates to our current situation. In my prototype, the background is black as I plan to use the black background as part of my collage. 
