@@ -106,7 +106,6 @@ body {
   bottom: 0;
   position: absolute;
   z-index: -1;
-
   border-radius: 50% 0% 50% 50%;
   transform: rotate(-45deg);
 }
