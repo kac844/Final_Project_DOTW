@@ -1,0 +1,224 @@
+@font-face{
+	font-family: 'dark';
+	src: url("../font/dark.ttf");
+}
+body{
+	margin:0px;
+	padding: 0px;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: black;
+}
+
+a{
+	text-decoration: none;
+}
+/*Web Page One*/
+.wrapper {
+  background-color: transparent;
+  width: 490px;
+  height: 885px;
+  border: 1px solid black;
+  perspective: 1000px; 
+  margin-left: 2px;
+}
+
+.inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  
+}
+
+.p1{
+  font-family: 'dark';
+  font-size: 150px;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  text-align: center;
+  margin-top: 150px;
+  display: flex;
+  margin-left: 150px;
+}
+
+.l1{
+
+  font-family: 'dark';
+  font-size: 300px;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  text-align: center;
+  margin-top: 180px;
+  display: flex;
+  margin-left: 50px;
+  color: white;
+}
+
+
+
+.wrapper:hover .inner {
+  transform: rotateY(180deg);
+}
+
+
+.front, .back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+
+.front {
+  background-color: #bbb;
+  color: black;
+}
+
+
+.back {
+  background: linear-gradient(to top left, #ffffff 22%, #000000 86%);
+  color: white;
+  transform: rotateY(180deg);
+}
+
+
+
+/*Web Page Two*/
+.wrapper2 {
+  background-color: transparent;
+  width: 490px;
+  height: 885px;
+  border: 1px solid black;
+  perspective: 1000px; 
+}
+
+.p2{
+  font-family: 'dark';
+  font-size: 150px;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  text-align: center;
+  margin-top: 150px;
+  display: flex;
+  margin-left: 150px;
+}
+
+.l2{
+
+  font-family: 'dark';
+  font-size: 300px;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  text-align: center;
+  margin-top: 180px;
+  display: flex;
+  margin-left: 50px;
+  color: white;
+}
+
+.inner2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.wrapper2:hover .inner2 {
+  transform: rotateY(180deg);
+}
+
+
+.front2, .back2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+
+.front2 {
+  background-color: #bbb;
+  color: black;
+}
+
+
+.back2 {
+  background: linear-gradient(to bottom, #6600ff 21%, #990099 76%);
+  color: white;
+  transform: rotateY(180deg);
+}
+
+
+
+
+/*Web Page Three*/
+.wrapper3 {
+  background-color: transparent;
+  width: 490px;
+  height: 885px;
+  border: 1px solid black;
+  perspective: 1000px; 
+}
+
+.p3{
+  font-family: 'dark';
+  font-size: 150px;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  text-align: center;
+  margin-top: 150px;
+  display: flex;
+  margin-left: 150px;
+}
+
+.l3{
+
+  font-family: 'dark';
+  font-size: 300px;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  text-align: center;
+  margin-top: 180px;
+  display: flex;
+  margin-left: 50px;
+  color: white;
+}
+
+.inner3 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.wrapper3:hover .inner3 {
+  transform: rotateY(180deg);
+}
+
+
+.front3, .back3 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+
+.front3 {
+  background-color: #bbb;
+  color: black;
+}
+
+
+.back3 {
+  background: linear-gradient(to right, #3366cc 21%, #99ccff 76%);
+  color: white;
+  transform: rotateY(180deg);
+}

@@ -1,0 +1,79 @@
+canvas{
+	background-color: lightgrey;
+	/*box-shadow: 23px -3px 17px 12px black;*/
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex; 
+
+}
+
+#door{
+  position: absolute;
+  z-index: -1;
+  width: 1500px;
+  height: 890px;
+}
+
+#frame {
+  width: 1960px;
+  height: 400px;
+  margin:auto;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: 270px;
+  margin-left: -30px;
+ }
+
+.wrapper{
+  background: url("../image/jelly.jpg");
+  color: #eee;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 1000px;
+  perspective-origin: 50% 50%;
+  animation: animation 100s linear infinite;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.3;
+}
+
+.wrapper2{
+  background: url("../image/jelly2.jpg");
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  perspective: 1000px;
+  perspective-origin: 50% 50%;
+  animation: animationB 50s linear infinite;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.3;
+}
+
+
+ #cloud{
+ 	display: none;
+
+
+ }
+
+ @keyframes animation {
+   100%{
+    background-position:0px -3000px;
+  }
+}
+
+@keyframes animationB {
+   100%{
+    background-position:-3000px 0px;
+  }
+}
