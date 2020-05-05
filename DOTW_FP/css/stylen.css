@@ -222,3 +222,61 @@ a{
   color: white;
   transform: rotateY(180deg);
 }
+
+#p4{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-family: "dark";
+  font-size: 20px;
+  color: white;
+  margin-top: 5px;
+
+}
+
+
+#a{
+  width: 150px;
+  height: 40px;
+  background-color: black;
+  position: absolute;
+  z-index: 2;
+  color: blue;
+  margin-left: 450px;
+}
+
+#b{
+  width: 150px;
+  height: 40px;
+  background-color: black;
+  position: absolute;
+  z-index: 2;
+  margin-left: 600px;
+}
+
+#c{
+  width: 150px;
+  height: 40px;
+  background-color: black;
+  position: absolute;
+  z-index: 2;
+  margin-left: 750px;
+ 
+}
+
+#d{
+  width: 150px;
+  height: 40px;
+  background-color: black;
+  position: absolute;
+  z-index: 2;
+  margin-left: 900px;
+ 
+}
+
+#piano{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 0px;
+
+}
